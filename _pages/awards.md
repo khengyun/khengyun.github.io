@@ -22,52 +22,75 @@ nav_order: 1
     border-right: 1px solid var(--global-divider-color);
   }
 
-  .awards-toc__title {
-    margin: 0 0 0.75rem;
-    color: var(--global-text-color);
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  .awards-toc nav {
+    display: grid;
+    gap: 1.15rem;
   }
 
-  .awards-toc nav {
+  .awards-toc__period {
+    display: grid;
+    gap: 0.35rem;
+    padding-left: 0.9rem;
+    border-left: 2px solid var(--global-divider-color);
+  }
+
+  .awards-toc__date {
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .awards-toc__groups {
     display: grid;
     gap: 0.25rem;
   }
 
-  .awards-toc a {
-    display: grid;
-    gap: 0.15rem;
-    padding: 0.7rem 0.8rem;
-    border-left: 3px solid transparent;
-    color: var(--global-text-color);
-    text-decoration: none;
-    transition:
-      border-color 160ms ease,
-      background-color 160ms ease;
-  }
-
-  .awards-toc a:hover,
-  .awards-toc a:focus {
-    border-left-color: var(--global-theme-color);
-    background: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
-  }
-
-  .awards-toc a span {
-    font-size: 0.95rem;
-    font-weight: 650;
-  }
-
-  .awards-toc a small {
+  .awards-toc__group {
+    padding: 0.15rem 0 0.15rem 0.65rem;
+    border-left: 2px solid transparent;
     color: var(--global-text-color-light);
     font-size: 0.78rem;
     line-height: 1.35;
+    text-decoration: none;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease;
+  }
+
+  .awards-toc__date:hover,
+  .awards-toc__date:focus,
+  .awards-toc__group:hover,
+  .awards-toc__group:focus {
+    color: var(--global-theme-color);
+  }
+
+  .awards-toc__group:hover,
+  .awards-toc__group:focus {
+    border-left-color: var(--global-theme-color);
+  }
+
+  .award-period {
+    scroll-margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  .award-period:last-child {
+    margin-bottom: 0;
+  }
+
+  .award-period__date {
+    margin: 0 0 0.35rem;
+    color: var(--global-theme-color);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
   .award-group {
     scroll-margin-top: 6rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
 
   .award-group:last-child {
@@ -78,15 +101,6 @@ nav_order: 1
     margin-bottom: 1rem;
     padding-bottom: 0.85rem;
     border-bottom: 1px solid var(--global-divider-color);
-  }
-
-  .award-group__date {
-    margin: 0 0 0.25rem;
-    color: var(--global-theme-color);
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
   }
 
   .award-group__header h2 {
@@ -210,109 +224,111 @@ nav_order: 1
     .award-entry {
       grid-template-columns: 1fr;
     }
-
-    .awards-toc a {
-      border-left: 0;
-      border-bottom: 2px solid transparent;
-    }
-
-    .awards-toc a:hover,
-    .awards-toc a:focus {
-      border-bottom-color: var(--global-theme-color);
-    }
   }
 </style>
 
 <div class="awards-layout">
   <aside class="awards-toc" aria-label="Awards archive">
-    <p class="awards-toc__title">Award archive</p>
     <nav>
-      <a href="#december-2025">
-        <span>December 2025</span>
-        <small>Vietnam Association for Information Processing</small>
-      </a>
-      <a href="#september-2024">
-        <span>September 2024</span>
-        <small>MICCAI 2024</small>
-      </a>
-      <a href="#november-2022">
-        <span>November 2022</span>
-        <small>TECHFEST Vietnam 2022</small>
-      </a>
+      <div class="awards-toc__period">
+        <a class="awards-toc__date" href="#december-2025">December 2025</a>
+        <div class="awards-toc__groups">
+          <a class="awards-toc__group" href="#december-2025-vaip">
+            Vietnam Association for Information Processing
+          </a>
+        </div>
+      </div>
+      <div class="awards-toc__period">
+        <a class="awards-toc__date" href="#september-2024">September 2024</a>
+        <div class="awards-toc__groups">
+          <a class="awards-toc__group" href="#september-2024-miccai">MICCAI 2024</a>
+        </div>
+      </div>
+      <div class="awards-toc__period">
+        <a class="awards-toc__date" href="#november-2022">November 2022</a>
+        <div class="awards-toc__groups">
+          <a class="awards-toc__group" href="#november-2022-techfest">TECHFEST Vietnam 2022</a>
+        </div>
+      </div>
     </nav>
   </aside>
 
   <div class="awards-detail">
-    <section class="award-group" id="december-2025">
-      <header class="award-group__header">
-        <p class="award-group__date">December 2025</p>
-        <h2>Vietnam Association for Information Processing</h2>
-      </header>
+    <section class="award-period" id="december-2025">
+      <p class="award-period__date">December 2025</p>
 
-      <article class="award-entry">
-        <div>
-          <p class="award-entry__result">First Prize</p>
-          <h3>Vietnam Student AI Olympiad 2025</h3>
-          <p class="award-entry__round">Southern Regional Round</p>
-          <p class="award-entry__description">Awarded as a member of team FPTU HCM VOAI2.</p>
-          <a
-            class="award-entry__source"
-            href="https://drive.google.com/file/d/1q1l6ecyxN2MNS8wxEC0Hg2RPOLKBhZ1_/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Original certificate <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-        <a
-          class="award-proof"
-          href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
-          aria-label="View the First Prize certificate at full size"
-        >
-          <img
-            src="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
-            alt="First Prize certificate for the Vietnam Student AI Olympiad 2025 Southern Regional Round"
-            loading="eager"
-          >
-        </a>
-      </article>
+      <section class="award-group" id="december-2025-vaip">
+        <header class="award-group__header">
+          <h2>Vietnam Association for Information Processing</h2>
+        </header>
 
-      <article class="award-entry">
-        <div>
-          <p class="award-entry__result">Third Prize</p>
-          <h3>Vietnam Student AI Olympiad 2025</h3>
-          <p class="award-entry__round">National Final</p>
-          <p class="award-entry__description">Awarded as a member of team FPTU HCM VOAI2.</p>
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">First Prize</p>
+            <h3>Vietnam Student AI Olympiad 2025</h3>
+            <p class="award-entry__round">Southern Regional Round</p>
+            <p class="award-entry__description">Awarded as a member of team FPTU HCM VOAI2.</p>
+            <a
+              class="award-entry__source"
+              href="https://drive.google.com/file/d/1q1l6ecyxN2MNS8wxEC0Hg2RPOLKBhZ1_/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Original certificate <span aria-hidden="true">↗</span>
+            </a>
+          </div>
           <a
-            class="award-entry__source"
-            href="https://drive.google.com/file/d/12wkcV6XsfxGxCLpgp_7dBSgbfnjKhmxP/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
+            class="award-proof"
+            href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
+            aria-label="View the First Prize certificate at full size"
           >
-            Original certificate <span aria-hidden="true">↗</span>
+            <img
+              src="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
+              alt="First Prize certificate for the Vietnam Student AI Olympiad 2025 Southern Regional Round"
+              loading="eager"
+            >
           </a>
-        </div>
-        <a
-          class="award-proof"
-          href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
-          aria-label="View the Third Prize certificate at full size"
-        >
-          <img
-            src="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
-            alt="Third Prize certificate for the Vietnam Student AI Olympiad 2025 National Final"
-            loading="lazy"
+        </article>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">Third Prize</p>
+            <h3>Vietnam Student AI Olympiad 2025</h3>
+            <p class="award-entry__round">National Final</p>
+            <p class="award-entry__description">Awarded as a member of team FPTU HCM VOAI2.</p>
+            <a
+              class="award-entry__source"
+              href="https://drive.google.com/file/d/12wkcV6XsfxGxCLpgp_7dBSgbfnjKhmxP/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Original certificate <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <a
+            class="award-proof"
+            href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
+            aria-label="View the Third Prize certificate at full size"
           >
-        </a>
-      </article>
+            <img
+              src="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
+              alt="Third Prize certificate for the Vietnam Student AI Olympiad 2025 National Final"
+              loading="lazy"
+            >
+          </a>
+        </article>
+      </section>
     </section>
 
-    <section class="award-group" id="september-2024">
-      <header class="award-group__header">
-        <p class="award-group__date">September 2024</p>
-        <h2>MICCAI 2024</h2>
-      </header>
+    <section class="award-period" id="september-2024">
+      <p class="award-period__date">September 2024</p>
 
-      <article class="award-entry">
+      <section class="award-group" id="september-2024-miccai">
+        <header class="award-group__header">
+          <h2>MICCAI 2024</h2>
+        </header>
+
+        <article class="award-entry">
         <div>
           <p class="award-entry__result">2nd Place</p>
           <h3>Endoscopic Vision Challenge</h3>
@@ -340,9 +356,9 @@ nav_order: 1
             loading="lazy"
           >
         </a>
-      </article>
+        </article>
 
-      <article class="award-entry">
+        <article class="award-entry">
         <div>
           <p class="award-entry__result">Best Methodology Report</p>
           <h3>Endoscopic Vision Challenge</h3>
@@ -370,39 +386,43 @@ nav_order: 1
             loading="lazy"
           >
         </a>
-      </article>
+        </article>
+      </section>
     </section>
 
-    <section class="award-group" id="november-2022">
-      <header class="award-group__header">
-        <p class="award-group__date">November 2022</p>
-        <h2>TECHFEST Vietnam 2022</h2>
-      </header>
+    <section class="award-period" id="november-2022">
+      <p class="award-period__date">November 2022</p>
 
-      <article class="award-entry">
-        <div>
-          <p class="award-entry__result">First Prize</p>
-          <h3>Green Startup Creative Talent Contest</h3>
-          <p class="award-entry__round">Green startup and circular economy</p>
-          <p class="award-entry__description">
-            Developed eco-friendly products from recycled coffee grounds.
-          </p>
-          <a
-            class="award-entry__source"
-            href="https://www.facebook.com/FPTU.CT.PCTSV/posts/pfbid0dCuTkZKiTD5sevLN6n7TFPoS7c89oc39c5PPDZ1sHyEmfUM7caAuryWQYis3iyjsl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Event post <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-        <div class="award-proof award-proof--text" aria-label="TECHFEST Vietnam 2022 award summary">
-          <span>
-            <strong>TECHFEST VIETNAM 2022</strong>
-            First Prize for an eco-friendly product concept using recycled coffee grounds.
-          </span>
-        </div>
-      </article>
+      <section class="award-group" id="november-2022-techfest">
+        <header class="award-group__header">
+          <h2>TECHFEST Vietnam 2022</h2>
+        </header>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">First Prize</p>
+            <h3>Green Startup Creative Talent Contest</h3>
+            <p class="award-entry__round">Green startup and circular economy</p>
+            <p class="award-entry__description">
+              Developed eco-friendly products from recycled coffee grounds.
+            </p>
+            <a
+              class="award-entry__source"
+              href="https://www.facebook.com/FPTU.CT.PCTSV/posts/pfbid0dCuTkZKiTD5sevLN6n7TFPoS7c89oc39c5PPDZ1sHyEmfUM7caAuryWQYis3iyjsl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Event post <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="award-proof award-proof--text" aria-label="TECHFEST Vietnam 2022 award summary">
+            <span>
+              <strong>TECHFEST VIETNAM 2022</strong>
+              First Prize for an eco-friendly product concept using recycled coffee grounds.
+            </span>
+          </div>
+        </article>
+      </section>
     </section>
 
   </div>
