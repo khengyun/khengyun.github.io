@@ -5,6 +5,8 @@ title: awards
 description: Selected awards and competition achievements.
 nav: true
 nav_order: 1
+images:
+  lightbox2: true
 ---
 
 <style>
@@ -323,6 +325,7 @@ nav_order: 1
           <div class="award-gallery" aria-label="Southern Regional Round photo gallery">
             <a
               class="award-proof"
+              data-lightbox="voai-2025-southern"
               href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
               aria-label="View the First Prize certificate at full size"
             >
@@ -334,6 +337,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="voai-2025-southern"
               href="{{ '/assets/img/awards/voai-2025-southern-regional-team.jpg' | relative_url }}"
               aria-label="View the FPTU HCM VOAI2 team photo at the Southern Regional Round"
             >
@@ -364,6 +368,7 @@ nav_order: 1
           <div class="award-gallery award-gallery--featured" aria-label="National Final photo gallery">
             <a
               class="award-proof"
+              data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final-award-ceremony.jpg' | relative_url }}"
               aria-label="View the National Final award ceremony photo at full size"
             >
@@ -375,6 +380,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
               aria-label="View the Third Prize certificate at full size"
             >
@@ -386,6 +392,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final-team.jpg' | relative_url }}"
               aria-label="View the team photo at the National Final"
             >
@@ -419,6 +426,7 @@ nav_order: 1
           >
             <a
               class="award-proof"
+              data-lightbox="vpbank-2025"
               href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-awards-group.jpg' | relative_url }}"
               aria-label="View the VPBank Technology Hackathon 2025 awards group photo at full size"
             >
@@ -430,6 +438,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="vpbank-2025"
               href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
               aria-label="View the Hackathon Star trophy photo at full size"
             >
@@ -441,6 +450,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="vpbank-2025"
               href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-team.jpg' | relative_url }}"
               aria-label="View the Dream Come True team photo at full size"
             >
@@ -482,6 +492,7 @@ nav_order: 1
           >
             <a
               class="award-proof"
+              data-lightbox="fpt-hackathon-2025"
               href="{{ '/assets/img/awards/fpt-hackathon-2025-third-place.jpg' | relative_url }}"
               aria-label="View the Team One Third Place photo at full size"
             >
@@ -493,6 +504,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="fpt-hackathon-2025"
               href="{{ '/assets/img/awards/fpt-hackathon-2025-team-one-recognition.jpg' | relative_url }}"
               aria-label="View the Team One recognition image at full size"
             >
@@ -504,6 +516,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="fpt-hackathon-2025"
               href="{{ '/assets/img/awards/fpt-hackathon-2025-team-one.jpg' | relative_url }}"
               aria-label="View Team One at the FPT Hackathon 2025 final at full size"
             >
@@ -529,6 +542,7 @@ nav_order: 1
           </div>
           <a
             class="award-group__photo"
+            data-lightbox="miccai-2024"
             href="{{ '/assets/img/awards/endoscopic-vision-2024-team.jpg' | relative_url }}"
             aria-label="View the Endoscopic Vision Challenge team photo at full size"
           >
@@ -559,6 +573,7 @@ nav_order: 1
         </div>
         <a
           class="award-proof"
+          data-lightbox="miccai-2024"
           href="{{ '/assets/img/awards/endoscopic-vision-2024-second-place.png' | relative_url }}"
           aria-label="View the 2nd Place certificate at full size"
         >
@@ -589,6 +604,7 @@ nav_order: 1
         </div>
         <a
           class="award-proof"
+          data-lightbox="miccai-2024"
           href="{{ '/assets/img/awards/endoscopic-vision-2024-methodology.png' | relative_url }}"
           aria-label="View the Best Methodology Report certificate at full size"
         >
@@ -634,6 +650,7 @@ nav_order: 1
           >
             <a
               class="award-proof"
+              data-lightbox="fpt-digital-race-2023"
               href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-finalists.jpg' | relative_url }}"
               aria-label="View the FPT Edu Digital Race 2023 finalists photo at full size"
             >
@@ -645,6 +662,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="fpt-digital-race-2023"
               href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-award-ceremony.jpg' | relative_url }}"
               aria-label="View the FPT Edu Digital Race 2023 award ceremony photo at full size"
             >
@@ -656,6 +674,7 @@ nav_order: 1
             </a>
             <a
               class="award-proof"
+              data-lightbox="fpt-digital-race-2023"
               href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-poster.jpg' | relative_url }}"
               aria-label="View the FPT Edu Digital Race 2023 National Final poster at full size"
             >
@@ -697,6 +716,7 @@ nav_order: 1
           </div>
           <a
             class="award-proof"
+            data-lightbox="techfest-2022"
             href="{{ '/assets/img/awards/techfest-2022-first-prize.jpg' | relative_url }}"
             aria-label="View the TECHFEST Vietnam 2022 First Prize image at full size"
           >
