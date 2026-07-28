@@ -1,189 +1,173 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Nguyen Hoang Khang
+  label: AI Researcher and Engineer
+  email: khaangnguyeen@gmail.com
+  location: South Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Combined M.S.–Ph.D. student at Sungkyunkwan University researching intelligent surveillance
+    systems and Edge AI. Experienced in computer vision, multimodal learning, autonomous systems,
+    medical imaging, and LLM applications, with a focus on efficient and reproducible AI.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: khengyun
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: khengyun
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Sungkyunkwan University (SKKU)
+        location: South Korea
+        area: Electrical and Electronics Engineering
+        studyType: Combined M.S.–Ph.D.
+        start_date: 2026-01
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Fully funded scholarship with full tuition waiver and monthly stipend.
+          - "Research interests: intelligent surveillance systems, Edge AI, and edge devices."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: FPT University
+        location: Vietnam
+        area: Software Engineering
+        studyType: Bachelor
+        start_date: 2021-09
+        end_date: 2025-04
+        score: "GPA: 3.25/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Sub-major in Artificial Intelligence.
+          - "Research interests: computer vision, multimodal learning, low-level vision, and vision-language models."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: FPT Software
+        position: Senior AI Engineer
+        location: Vietnam
+        start_date: 2025-09
+        end_date: 2026-02
         highlights:
-          - Relativity
-          - Description 2.
+          - Designed LLM-powered agents for code refactoring, documentation, and bug triage.
+          - Integrated foundation models into multi-agent reasoning and tool orchestration frameworks.
+          - Improved productivity, reproducibility, and scalability in enterprise AI development.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: InnoTech Corporation
+        position: AI Researcher
+        location: Vietnam
+        start_date: 2025-04
+        end_date: 2025-09
         highlights:
-          - Description 1.
-          - Description 2.
+          - Led a cross-functional AI research team across computer vision, NLP, and recommender systems.
+          - Optimized model-training pipelines for reproducibility and production scalability.
+          - Aligned research initiatives with product goals and business requirements.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Inspire Lab Technology
+        position: AI Engineer
+        location: Vietnam
+        start_date: 2024-04
+        end_date: 2025-04
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed deep-learning models for medical image analysis and disease classification.
+          - Built an engagement-based film recommendation system.
+          - Engineered an automated image generation and optimization pipeline for SEO workflows.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Share A Cart
+        position: Software Developer
+        location: United States (remote)
+        start_date: 2023-12
+        end_date: 2025-05
+        highlights:
+          - Built full-stack features with an emphasis on performance and system reliability.
+          - Supported 70% of integrated retailers through modular services and API integrations.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: FPT University
+        position: AI Researcher
+        location: Vietnam
+        start_date: 2022-03
+        end_date: 2025-04
+        highlights:
+          - Published research on traffic-light detection, lane keeping, and LiDAR pedestrian detection.
+          - Developed deep-learning models for real-world autonomous systems.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: NotebookLM-MCP
+        start_date: 2025-01
+        end_date: 2025-07
+        summary: >-
+          Open-source Python package implementing the Model Context Protocol with multiple transports,
+          type-safe FastMCP decorators, dynamic tool registration, and NotebookLM integration.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Python, FastMCP, MCP, HTTP, SSE, asynchronous systems
+        url: https://github.com/khengyun/notebooklm-mcp
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Innocody Code Assistant
+        start_date: 2025-04
+        end_date: 2025-08
+        summary: >-
+          Led the AI team building an IDE assistant for code generation, debugging, deployment,
+          context-aware chat, autocomplete, and multi-LLM workflows.
+        highlights:
+          - Integrated GitHub, GitLab, Docker, and multiple databases.
+        url: https://marketplace.visualstudio.com/items?itemName=innotechvn.innocody
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Contract Legal Chatbot
+        start_date: 2025-06
+        end_date: 2025-08
+        summary: >-
+          Built an AI contract-review platform for interactive question answering over uploaded PDF
+          contracts.
+        url: https://trolyhopdong.com/
+
+      - name: Stock Price Advisory Chatbot
+        start_date: 2025-05
+        end_date: 2025-06
+        summary: >-
+          Consulted on conversational flows and AI model design for a real-time stock advisory assistant.
+        url: https://www.unifimoney.com/
+
+    Awards:
+      - title: First Prize — Vietnam Student AI Olympiad 2025, Southern Regional Round
+        date: 2025-12
+        awarder: Vietnam Association for Information Processing
+        summary: Awarded as a member of team FPTU HCM VOAI2.
+
+      - title: Third Prize — Vietnam Student AI Olympiad 2025, National Final
+        date: 2025-12
+        awarder: Vietnam Association for Information Processing
+        summary: Awarded as a member of team FPTU HCM VOAI2.
+
+      - title: 2nd Place — Endoscopic Vision Challenge
+        date: 2024-09
+        awarder: MICCAI 2024
+        summary: Achieved top-ranking performance in deep-learning-based surgical tool detection.
+
+      - title: Best Methodology Report — Endoscopic Vision Challenge
+        date: 2024-09
+        awarder: MICCAI 2024
+        summary: Recognized for research methodology and analysis in surgical tool detection.
+
+      - title: First Prize — Green Startup Creative Talent Contest
+        date: 2022-11
+        awarder: TECHFEST Vietnam 2022
+        summary: Developed eco-friendly products from recycled coffee grounds.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, asynchronous programming, HTTP, SSE, API integration"
+
+      - name: AI and Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "Computer vision, multimodal learning, NLP, information retrieval, deep learning, LLMs"
+
+      - name: LLM Systems
+        icon: fa-solid fa-robot
+        keywords: "MCP, FastMCP, LangChain, AutoGen, CrewAI, document Q&A, multi-agent systems"
+
+      - name: Engineering
+        icon: fa-solid fa-gears
+        keywords: "Docker, GitHub, GitLab, databases, reproducible ML pipelines, production deployment"
+
+    Languages:
+      - name: Vietnamese
+        summary: Native
+      - name: English
+        summary: Professional working proficiency

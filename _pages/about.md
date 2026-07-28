@@ -2,33 +2,46 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Combined M.S.–Ph.D. Student · AI Researcher & Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Sungkyunkwan University (SKKU)</p>
+    <p>Electrical and Electronics Engineering</p>
+    <p>South Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # social icons are already displayed in the navbar
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a combined M.S.–Ph.D. student in Electrical and Electronics Engineering at
+[Sungkyunkwan University](https://www.skku.edu/) (SKKU). My research focuses on
+**intelligent surveillance systems**, **Edge AI**, and efficient perception for edge devices.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before joining SKKU, I worked across research and industry as an AI engineer, building systems in
+computer vision, multimodal learning, medical imaging, autonomous systems, recommender systems,
+and LLM-powered developer tools. I care about AI that is not only accurate, but also efficient,
+reproducible, and practical to deploy.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current interests include:
+
+- multi-camera and 3D visual perception;
+- edge intelligence and resource-efficient deep learning;
+- multimodal and vision-language learning;
+- reliable AI engineering and agentic systems.
+
+I am open to research collaborations and conversations around applied computer vision and
+production-grade AI. The best way to reach me is by [email](mailto:khaangnguyeen@gmail.com).

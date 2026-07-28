@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - khengyun
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - khengyun/notebooklm-mcp
+  - khengyun/autonext
+  - khengyun/simple-tmux-manager
+  - khengyun/readme-scholar-activity
+  - khengyun/Coursera-Get-Shareable-Link
+  - khengyun/FaceMask_Agumentation

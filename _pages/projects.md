@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Selected open-source and industry projects in AI engineering.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [open-source, industry]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
