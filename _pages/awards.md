@@ -281,6 +281,12 @@ nav_order: 1
         </div>
       </div>
       <div class="awards-toc__period">
+        <a class="awards-toc__date" href="#september-2023">September 2023</a>
+        <div class="awards-toc__groups">
+          <a class="awards-toc__group" href="#september-2023-fpt-education">FPT Education</a>
+        </div>
+      </div>
+      <div class="awards-toc__period">
         <a class="awards-toc__date" href="#november-2022">November 2022</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#november-2022-techfest">TECHFEST Vietnam 2022</a>
@@ -528,6 +534,74 @@ nav_order: 1
             loading="lazy"
           >
         </a>
+        </article>
+      </section>
+    </section>
+
+    <section class="award-period" id="september-2023">
+      <p class="award-period__date">September 2023</p>
+
+      <section class="award-group" id="september-2023-fpt-education">
+        <header class="award-group__header">
+          <h2>FPT Education</h2>
+        </header>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">Consolation Prize</p>
+            <h3>FPT Edu Digital Race 2023</h3>
+            <p class="award-entry__round">National Final · Autonomous Vehicle AI</p>
+            <p class="award-entry__description">
+              Competed in an autonomous vehicle AI challenge, developing real-time object detection
+              and navigation algorithms.
+            </p>
+            <a
+              class="award-entry__source"
+              href="https://www.facebook.com/FEExpSpace/posts/pfbid02CxAkNmgagwNbjqJKwLJnc5m7ss4nLXoAXE91JBrUenswC8ByNQdWrQK1jvWt84WGl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Event post <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div
+            class="award-gallery award-gallery--featured"
+            aria-label="FPT Edu Digital Race 2023 photo gallery"
+          >
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-finalists.jpg' | relative_url }}"
+              aria-label="View the FPT Edu Digital Race 2023 finalists photo at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-edu-digital-race-2023-finalists.jpg' | relative_url }}"
+                alt="Finalists and organizers at the FPT Edu Digital Race 2023 National Final"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-award-ceremony.jpg' | relative_url }}"
+              aria-label="View the FPT Edu Digital Race 2023 award ceremony photo at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-edu-digital-race-2023-award-ceremony.jpg' | relative_url }}"
+                alt="Award recipients on stage at the FPT Edu Digital Race 2023 National Final"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-poster.jpg' | relative_url }}"
+              aria-label="View the FPT Edu Digital Race 2023 National Final poster at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-edu-digital-race-2023-poster.jpg' | relative_url }}"
+                alt="FPT Edu Digital Race 2023 National Final poster"
+                loading="lazy"
+              >
+            </a>
+          </div>
         </article>
       </section>
     </section>

@@ -5,6 +5,10 @@ email: khaangnguyeen@gmail.com # your email address
 github_username: khengyun
 linkedin_username: khengyun
 orcid_id: 0000-0003-3616-0367
+openreview:
+  title: OpenReview
+  url: https://openreview.net/profile?id=%7EHoang-Khang_Nguyen2
+  logo: fa-solid fa-file-lines
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: YpOO60MAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
