@@ -12,52 +12,60 @@ images:
 <style>
   .awards-layout {
     display: grid;
-    grid-template-columns: 14rem minmax(0, 1fr);
-    gap: clamp(2rem, 5vw, 4.5rem);
+    grid-template-columns: 13rem minmax(0, 1fr);
+    gap: clamp(2rem, 4vw, 3rem);
     align-items: start;
   }
 
   .awards-toc {
     position: sticky;
     top: 6rem;
-    padding-right: 1.25rem;
-    border-right: 1px solid var(--global-divider-color);
+    padding-right: 0.75rem;
   }
 
   .awards-toc nav {
     display: grid;
-    gap: 1.15rem;
+    gap: 1.25rem;
   }
 
   .awards-toc__period {
     display: grid;
-    gap: 0.35rem;
-    padding-left: 0.9rem;
-    border-left: 2px solid var(--global-divider-color);
+    gap: 0.4rem;
+    padding-left: 0.85rem;
+    border-left: 1px solid var(--global-divider-color);
+    transition: border-color 160ms ease;
+  }
+
+  .awards-toc__period.is-active {
+    border-left-color: var(--global-theme-color);
   }
 
   .awards-toc__date {
     color: var(--global-text-color);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-decoration: none;
+    transition: color 160ms ease;
+  }
+
+  .awards-toc__period.is-active .awards-toc__date {
+    color: var(--global-theme-color);
   }
 
   .awards-toc__groups {
     display: grid;
-    gap: 0.25rem;
+    gap: 0.15rem;
   }
 
   .awards-toc__group {
-    padding: 0.15rem 0 0.15rem 0.65rem;
-    border-left: 2px solid transparent;
+    padding: 0.15rem 0;
     color: var(--global-text-color-light);
-    font-size: 0.78rem;
-    line-height: 1.35;
+    font-size: 0.75rem;
+    line-height: 1.4;
     text-decoration: none;
     transition:
-      border-color 160ms ease,
-      color 160ms ease;
+      color 160ms ease,
+      font-weight 160ms ease;
   }
 
   .awards-toc__date:hover,
@@ -67,14 +75,14 @@ images:
     color: var(--global-theme-color);
   }
 
-  .awards-toc__group:hover,
-  .awards-toc__group:focus {
-    border-left-color: var(--global-theme-color);
+  .awards-toc__group.is-active {
+    color: var(--global-theme-color);
+    font-weight: 600;
   }
 
   .award-period {
-    scroll-margin-top: 6rem;
-    margin-bottom: 4rem;
+    scroll-margin-top: 7rem;
+    margin-bottom: 3.5rem;
   }
 
   .award-period:last-child {
@@ -91,8 +99,8 @@ images:
   }
 
   .award-group {
-    scroll-margin-top: 6rem;
-    margin-bottom: 2.5rem;
+    scroll-margin-top: 7rem;
+    margin-bottom: 2.75rem;
   }
 
   .award-group:last-child {
@@ -100,14 +108,14 @@ images:
   }
 
   .award-group__header {
-    margin-bottom: 1rem;
-    padding-bottom: 0.85rem;
+    margin-bottom: 0;
+    padding-bottom: 0.75rem;
     border-bottom: 1px solid var(--global-divider-color);
   }
 
   .award-group__header h2 {
     margin: 0;
-    font-size: clamp(1.35rem, 2.3vw, 1.8rem);
+    font-size: clamp(1.3rem, 2.1vw, 1.65rem);
     line-height: 1.25;
   }
 
@@ -142,18 +150,18 @@ images:
 
   .award-entry {
     display: grid;
-    grid-template-columns: minmax(11rem, 0.75fr) minmax(19rem, 1.25fr);
-    gap: clamp(1.25rem, 3vw, 2rem);
+    grid-template-columns: minmax(14rem, 2fr) minmax(18rem, 3fr);
+    gap: clamp(1.5rem, 3vw, 2.25rem);
     align-items: start;
-    margin-bottom: 1.25rem;
-    padding: clamp(1rem, 2.2vw, 1.5rem);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.65rem;
-    background: var(--global-card-bg-color);
+    margin: 0;
+    padding: clamp(1.2rem, 2.2vw, 1.5rem) 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    background: transparent;
   }
 
   .award-entry:last-child {
-    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
   }
 
   .award-entry__result {
@@ -167,19 +175,19 @@ images:
 
   .award-entry h3 {
     margin: 0 0 0.35rem;
-    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    font-size: clamp(1.15rem, 1.8vw, 1.35rem);
     line-height: 1.3;
   }
 
   .award-entry__round {
-    margin: 0 0 1rem;
+    margin: 0 0 0.8rem;
     color: var(--global-text-color-light);
     font-weight: 600;
   }
 
   .award-entry__description {
-    margin-bottom: 1rem;
-    font-size: 0.95rem;
+    margin-bottom: 0.85rem;
+    font-size: 0.92rem;
     line-height: 1.55;
   }
 
@@ -198,8 +206,17 @@ images:
     justify-content: center;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
-    border-radius: 0.45rem;
+    border-radius: 0.35rem;
     background: #fff;
+    transition:
+      border-color 160ms ease,
+      opacity 160ms ease;
+  }
+
+  .award-proof:hover,
+  .award-proof:focus {
+    border-color: color-mix(in srgb, var(--global-theme-color) 45%, var(--global-divider-color));
+    opacity: 0.94;
   }
 
   .award-proof img {
@@ -227,9 +244,14 @@ images:
     object-fit: cover;
   }
 
-  .award-gallery--featured > .award-proof:first-child {
+  .award-proof--contain img {
+    object-fit: contain;
+  }
+
+  .award-gallery--three > .award-proof:last-child {
     grid-column: 1 / -1;
-    aspect-ratio: 3 / 2;
+    width: calc(50% - 0.375rem);
+    justify-self: center;
   }
 
   @media (max-width: 991px) {
@@ -240,24 +262,64 @@ images:
 
     .awards-toc {
       position: static;
-      padding: 0 0 1.25rem;
+      padding: 0 0 1rem;
       border-right: 0;
       border-bottom: 1px solid var(--global-divider-color);
     }
 
     .awards-toc nav {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 
   @media (max-width: 767px) {
-    .awards-toc nav,
     .award-entry {
       grid-template-columns: 1fr;
     }
 
+    .awards-layout {
+      gap: 1.5rem;
+    }
+
+    .awards-toc nav {
+      gap: 0.5rem;
+    }
+
+    .awards-toc__period {
+      display: block;
+      padding: 0;
+      border-left: 0;
+    }
+
+    .awards-toc__date {
+      display: block;
+      padding: 0.45rem 0.25rem;
+      border-bottom: 2px solid transparent;
+      text-align: center;
+    }
+
+    .awards-toc__period.is-active .awards-toc__date {
+      border-bottom-color: var(--global-theme-color);
+    }
+
+    .awards-toc__groups {
+      display: none;
+    }
+
     .award-group__header--with-photo {
       grid-template-columns: minmax(0, 1fr) 6rem;
+    }
+
+    .award-entry {
+      gap: 1rem;
+    }
+
+    .award-gallery {
+      gap: 0.5rem;
+    }
+
+    .award-gallery--three > .award-proof:last-child {
+      width: calc(50% - 0.25rem);
     }
   }
 </style>
@@ -266,7 +328,7 @@ images:
   <aside class="awards-toc" aria-label="Awards archive">
     <nav>
       <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#2025">2025</a>
+        <a class="awards-toc__date" href="{{ '/awards/' | relative_url }}">2025</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#december-2025-vaip">
             Vietnam Association for Information Processing
@@ -325,7 +387,7 @@ images:
           </div>
           <div class="award-gallery" aria-label="Southern Regional Round photo gallery">
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="voai-2025-southern"
               href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
               aria-label="View the First Prize certificate at full size"
@@ -368,7 +430,7 @@ images:
           </div>
           <div class="award-gallery" aria-label="National Final photo gallery">
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final-award-ceremony.jpg' | relative_url }}"
               aria-label="View the National Final award ceremony photo at full size"
@@ -380,7 +442,7 @@ images:
               >
             </a>
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
               aria-label="View the Third Prize certificate at full size"
@@ -404,7 +466,7 @@ images:
               >
             </a>
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="voai-2025-national"
               href="{{ '/assets/img/awards/voai-2025-national-final-kit.jpg' | relative_url }}"
               aria-label="View the OLP AI 2025 contestant kit at full size"
@@ -528,7 +590,7 @@ images:
               >
             </a>
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="fpt-hackathon-2025"
               href="{{ '/assets/img/awards/fpt-hackathon-2025-team-one-recognition.jpg' | relative_url }}"
               aria-label="View the Team One recognition image at full size"
@@ -586,7 +648,7 @@ images:
             aria-label="FleziPT AI Champions photo gallery"
           >
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="flezipt-ai-champions-2025"
               href="{{ '/assets/img/awards/flezipt-ai-champions-2025-prize.jpg' | relative_url }}"
               aria-label="View the FleziPT AI Champion prize board at full size"
@@ -655,7 +717,7 @@ images:
           </a>
         </div>
         <a
-          class="award-proof"
+          class="award-proof award-proof--contain"
           data-lightbox="miccai-2024"
           href="{{ '/assets/img/awards/endoscopic-vision-2024-second-place.png' | relative_url }}"
           aria-label="View the 2nd Place certificate at full size"
@@ -686,7 +748,7 @@ images:
           </a>
         </div>
         <a
-          class="award-proof"
+          class="award-proof award-proof--contain"
           data-lightbox="miccai-2024"
           href="{{ '/assets/img/awards/endoscopic-vision-2024-methodology.png' | relative_url }}"
           aria-label="View the Best Methodology Report certificate at full size"
@@ -728,7 +790,7 @@ images:
             </a>
           </div>
           <div
-            class="award-gallery award-gallery--featured"
+            class="award-gallery award-gallery--three"
             aria-label="FPT Edu Digital Race 2023 photo gallery"
           >
             <a
@@ -756,7 +818,7 @@ images:
               >
             </a>
             <a
-              class="award-proof"
+              class="award-proof award-proof--contain"
               data-lightbox="fpt-digital-race-2023"
               href="{{ '/assets/img/awards/fpt-edu-digital-race-2023-poster.jpg' | relative_url }}"
               aria-label="View the FPT Edu Digital Race 2023 National Final poster at full size"
@@ -798,7 +860,7 @@ images:
             </a>
           </div>
           <a
-            class="award-proof"
+            class="award-proof award-proof--contain"
             data-lightbox="techfest-2022"
             href="{{ '/assets/img/awards/techfest-2022-first-prize.jpg' | relative_url }}"
             aria-label="View the TECHFEST Vietnam 2022 First Prize image at full size"
@@ -815,3 +877,55 @@ images:
 
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const links = Array.from(document.querySelectorAll(".awards-toc__group"));
+    const sections = links
+      .map((link) => {
+        const id = link.getAttribute("href")?.slice(1);
+        const section = id ? document.getElementById(id) : null;
+        return section ? { link, section } : null;
+      })
+      .filter(Boolean);
+
+    if (!sections.length) return;
+
+    let scheduled = false;
+
+    const updateActiveSection = () => {
+      const marker = window.scrollY + Math.min(window.innerHeight * 0.28, 180);
+      let active = sections[0];
+
+      sections.forEach((item) => {
+        if (item.section.offsetTop <= marker) active = item;
+      });
+
+      links.forEach((link) => {
+        const isActive = link === active.link;
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+
+      document.querySelectorAll(".awards-toc__period").forEach((period) => {
+        period.classList.toggle("is-active", period.contains(active.link));
+      });
+
+      scheduled = false;
+    };
+
+    const scheduleUpdate = () => {
+      if (scheduled) return;
+      scheduled = true;
+      window.requestAnimationFrame(updateActiveSection);
+    };
+
+    window.addEventListener("scroll", scheduleUpdate, { passive: true });
+    window.addEventListener("resize", scheduleUpdate);
+    updateActiveSection();
+  });
+</script>
