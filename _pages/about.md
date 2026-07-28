@@ -28,6 +28,16 @@ latest_posts:
 ---
 
 <style>
+  .post-header .post-title::after {
+    display: inline-block;
+    margin-left: 0.35rem;
+    color: var(--global-text-color-light);
+    content: "(khengyun)";
+    font-size: 0.52em;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
   .education-list {
     display: grid;
     gap: 1.15rem;
