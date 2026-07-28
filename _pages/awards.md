@@ -236,6 +236,9 @@ nav_order: 1
           <a class="awards-toc__group" href="#december-2025-vaip">
             Vietnam Association for Information Processing
           </a>
+          <a class="awards-toc__group" href="#december-2025-vpbank">
+            VPBank Technology Hackathon 2025
+          </a>
         </div>
       </div>
       <div class="awards-toc__period">
@@ -313,6 +316,34 @@ nav_order: 1
             <img
               src="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
               alt="Third Prize certificate for the Vietnam Student AI Olympiad 2025 National Final"
+              loading="lazy"
+            >
+          </a>
+        </article>
+      </section>
+
+      <section class="award-group" id="december-2025-vpbank">
+        <header class="award-group__header">
+          <h2>VPBank Technology Hackathon 2025</h2>
+        </header>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">Hackathon Star</p>
+            <h3>Senior Track</h3>
+            <p class="award-entry__round">Team Dream Come True</p>
+            <p class="award-entry__description">
+              Recognized for a solution that optimized 40% of testing costs.
+            </p>
+          </div>
+          <a
+            class="award-proof"
+            href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
+            aria-label="View the VPBank Technology Hackathon 2025 award photo at full size"
+          >
+            <img
+              src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
+              alt="Hackathon Star trophy from the Senior Track at VPBank Technology Hackathon 2025"
               loading="lazy"
             >
           </a>
