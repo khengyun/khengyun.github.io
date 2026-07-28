@@ -275,6 +275,7 @@ images:
             VPBank Technology Hackathon 2025
           </a>
           <a class="awards-toc__group" href="#september-2025-fpt-education">FPT Education</a>
+          <a class="awards-toc__group" href="#april-2025-fpt-software">FPT Software</a>
         </div>
       </div>
       <div class="awards-toc__period">
@@ -523,6 +524,64 @@ images:
               <img
                 src="{{ '/assets/img/awards/fpt-hackathon-2025-team-one.jpg' | relative_url }}"
                 alt="Team One at the FPT Hackathon 2025 National Final"
+                loading="lazy"
+              >
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="award-group" id="april-2025-fpt-software">
+        <header class="award-group__header">
+          <h2>FPT Software</h2>
+        </header>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">Top 1</p>
+            <h3>FleziPT AI Champions</h3>
+            <p class="award-entry__round">Hack The Future · Saigon 48</p>
+            <p class="award-entry__description">
+              Ranked first and received the AI Champion award, with a 20,000,000 VND prize.
+            </p>
+          </div>
+          <div
+            class="award-gallery award-gallery--featured"
+            aria-label="FleziPT AI Champions photo gallery"
+          >
+            <a
+              class="award-proof"
+              data-lightbox="flezipt-ai-champions-2025"
+              href="{{ '/assets/img/awards/flezipt-ai-champions-2025-prize.jpg' | relative_url }}"
+              aria-label="View the FleziPT AI Champion prize board at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/flezipt-ai-champions-2025-prize.jpg' | relative_url }}"
+                alt="FleziPT AI Champion prize board for 20,000,000 VND"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              data-lightbox="flezipt-ai-champions-2025"
+              href="{{ '/assets/img/awards/flezipt-ai-champions-2025-award.jpg' | relative_url }}"
+              aria-label="View Khang holding the FleziPT AI Champion award at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/flezipt-ai-champions-2025-award.jpg' | relative_url }}"
+                alt="Khang holding the FleziPT AI Champion award"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              data-lightbox="flezipt-ai-champions-2025"
+              href="{{ '/assets/img/awards/flezipt-ai-champions-2025-hackathon.jpg' | relative_url }}"
+              aria-label="View the Hack The Future working session at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/flezipt-ai-champions-2025-hackathon.jpg' | relative_url }}"
+                alt="Participants working during the FleziPT AI Champions Hack The Future challenge"
                 loading="lazy"
               >
             </a>
