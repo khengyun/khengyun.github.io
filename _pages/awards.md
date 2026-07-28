@@ -196,6 +196,11 @@ nav_order: 1
     object-fit: cover;
   }
 
+  .award-gallery--featured > .award-proof:first-child {
+    grid-column: 1 / -1;
+    aspect-ratio: 3 / 2;
+  }
+
   @media (max-width: 991px) {
     .awards-layout {
       grid-template-columns: 1fr;
@@ -275,17 +280,30 @@ nav_order: 1
               Original certificate <span aria-hidden="true">↗</span>
             </a>
           </div>
-          <a
-            class="award-proof"
-            href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
-            aria-label="View the First Prize certificate at full size"
-          >
-            <img
-              src="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
-              alt="First Prize certificate for the Vietnam Student AI Olympiad 2025 Southern Regional Round"
-              loading="eager"
+          <div class="award-gallery" aria-label="Southern Regional Round photo gallery">
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
+              aria-label="View the First Prize certificate at full size"
             >
-          </a>
+              <img
+                src="{{ '/assets/img/awards/voai-2025-southern-regional.jpg' | relative_url }}"
+                alt="First Prize certificate for the Vietnam Student AI Olympiad 2025 Southern Regional Round"
+                loading="eager"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/voai-2025-southern-regional-team.jpg' | relative_url }}"
+              aria-label="View the FPTU HCM VOAI2 team photo at the Southern Regional Round"
+            >
+              <img
+                src="{{ '/assets/img/awards/voai-2025-southern-regional-team.jpg' | relative_url }}"
+                alt="Team FPTU HCM VOAI2 at the Vietnam Student AI Olympiad 2025 Southern Regional Round"
+                loading="lazy"
+              >
+            </a>
+          </div>
         </article>
 
         <article class="award-entry">
@@ -303,17 +321,41 @@ nav_order: 1
               Original certificate <span aria-hidden="true">↗</span>
             </a>
           </div>
-          <a
-            class="award-proof"
-            href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
-            aria-label="View the Third Prize certificate at full size"
-          >
-            <img
-              src="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
-              alt="Third Prize certificate for the Vietnam Student AI Olympiad 2025 National Final"
-              loading="lazy"
+          <div class="award-gallery award-gallery--featured" aria-label="National Final photo gallery">
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/voai-2025-national-final-award-ceremony.jpg' | relative_url }}"
+              aria-label="View the National Final award ceremony photo at full size"
             >
-          </a>
+              <img
+                src="{{ '/assets/img/awards/voai-2025-national-final-award-ceremony.jpg' | relative_url }}"
+                alt="Team FPTU HCM VOAI2 receiving awards at the Vietnam Student AI Olympiad 2025 National Final"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
+              aria-label="View the Third Prize certificate at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/voai-2025-national-final.jpg' | relative_url }}"
+                alt="Third Prize certificate for the Vietnam Student AI Olympiad 2025 National Final"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/voai-2025-national-final-team.jpg' | relative_url }}"
+              aria-label="View the team photo at the National Final"
+            >
+              <img
+                src="{{ '/assets/img/awards/voai-2025-national-final-team.jpg' | relative_url }}"
+                alt="Team members at the Vietnam Student AI Olympiad 2025 National Final"
+                loading="lazy"
+              >
+            </a>
+          </div>
         </article>
       </section>
 
@@ -331,7 +373,21 @@ nav_order: 1
               Recognized for a solution that optimized 40% of testing costs.
             </p>
           </div>
-          <div class="award-gallery" aria-label="VPBank Technology Hackathon 2025 photo gallery">
+          <div
+            class="award-gallery award-gallery--featured"
+            aria-label="VPBank Technology Hackathon 2025 photo gallery"
+          >
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-awards-group.jpg' | relative_url }}"
+              aria-label="View the VPBank Technology Hackathon 2025 awards group photo at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-awards-group.jpg' | relative_url }}"
+                alt="Award recipients at the VPBank Technology Hackathon 2025"
+                loading="lazy"
+              >
+            </a>
             <a
               class="award-proof"
               href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
