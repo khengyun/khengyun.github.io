@@ -264,7 +264,7 @@ nav_order: 1
   <aside class="awards-toc" aria-label="Awards archive">
     <nav>
       <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#december-2025">December 2025</a>
+        <a class="awards-toc__date" href="#2025">2025</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#december-2025-vaip">
             Vietnam Association for Information Processing
@@ -272,28 +272,23 @@ nav_order: 1
           <a class="awards-toc__group" href="#december-2025-vpbank">
             VPBank Technology Hackathon 2025
           </a>
-        </div>
-      </div>
-      <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#september-2025">September 2025</a>
-        <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#september-2025-fpt-education">FPT Education</a>
         </div>
       </div>
       <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#september-2024">September 2024</a>
+        <a class="awards-toc__date" href="#2024">2024</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#september-2024-miccai">MICCAI 2024</a>
         </div>
       </div>
       <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#september-2023">September 2023</a>
+        <a class="awards-toc__date" href="#2023">2023</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#september-2023-fpt-education">FPT Education</a>
         </div>
       </div>
       <div class="awards-toc__period">
-        <a class="awards-toc__date" href="#november-2022">November 2022</a>
+        <a class="awards-toc__date" href="#2022">2022</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#november-2022-techfest">TECHFEST Vietnam 2022</a>
         </div>
@@ -302,8 +297,8 @@ nav_order: 1
   </aside>
 
   <div class="awards-detail">
-    <section class="award-period" id="december-2025">
-      <p class="award-period__date">December 2025</p>
+    <section class="award-period" id="2025">
+      <p class="award-period__date">2025</p>
 
       <section class="award-group" id="december-2025-vaip">
         <header class="award-group__header">
@@ -458,10 +453,6 @@ nav_order: 1
           </div>
         </article>
       </section>
-    </section>
-
-    <section class="award-period" id="september-2025">
-      <p class="award-period__date">September 2025</p>
 
       <section class="award-group" id="september-2025-fpt-education">
         <header class="award-group__header">
@@ -527,8 +518,8 @@ nav_order: 1
       </section>
     </section>
 
-    <section class="award-period" id="september-2024">
-      <p class="award-period__date">September 2024</p>
+    <section class="award-period" id="2024">
+      <p class="award-period__date">2024</p>
 
       <section class="award-group" id="september-2024-miccai">
         <header class="award-group__header award-group__header--with-photo">
@@ -611,8 +602,8 @@ nav_order: 1
       </section>
     </section>
 
-    <section class="award-period" id="september-2023">
-      <p class="award-period__date">September 2023</p>
+    <section class="award-period" id="2023">
+      <p class="award-period__date">2023</p>
 
       <section class="award-group" id="september-2023-fpt-education">
         <header class="award-group__header">
@@ -679,8 +670,8 @@ nav_order: 1
       </section>
     </section>
 
-    <section class="award-period" id="november-2022">
-      <p class="award-period__date">November 2022</p>
+    <section class="award-period" id="2022">
+      <p class="award-period__date">2022</p>
 
       <section class="award-group" id="november-2022-techfest">
         <header class="award-group__header">
