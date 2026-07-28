@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Nguyen
+first_name: Khang
 middle_name: Hoang
-last_name: Khang
+last_name: Nguyen
 contact_note: >
   Email is the best way to reach me for research and engineering collaborations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic portfolio of Nguyen Hoang Khang, an AI researcher and engineer working on computer vision,
+  Academic portfolio of Khang Hoang Nguyen, an AI researcher and engineer working on computer vision,
   intelligent surveillance, edge AI, multimodal learning, and reliable AI systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Nguyen Hoang Khang, AI researcher, AI engineer, computer vision, edge AI, multimodal learning, intelligent surveillance
+keywords: Khang Hoang Nguyen, Nguyen Hoang Khang, AI researcher, AI engineer, computer vision, edge AI, multimodal learning, intelligent surveillance
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
