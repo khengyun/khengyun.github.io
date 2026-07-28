@@ -366,7 +366,7 @@ images:
               Original certificate <span aria-hidden="true">↗</span>
             </a>
           </div>
-          <div class="award-gallery award-gallery--featured" aria-label="National Final photo gallery">
+          <div class="award-gallery" aria-label="National Final photo gallery">
             <a
               class="award-proof"
               data-lightbox="voai-2025-national"
@@ -403,6 +403,18 @@ images:
                 loading="lazy"
               >
             </a>
+            <a
+              class="award-proof"
+              data-lightbox="voai-2025-national"
+              href="{{ '/assets/img/awards/voai-2025-national-final-kit.jpg' | relative_url }}"
+              aria-label="View the OLP AI 2025 contestant kit at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/voai-2025-national-final-kit.jpg' | relative_url }}"
+                alt="OLP AI 2025 contestant kit for Nguyen Hoang Khang of team FPTU HCM VOAI2"
+                loading="lazy"
+              >
+            </a>
           </div>
         </article>
       </section>
@@ -422,7 +434,7 @@ images:
             </p>
           </div>
           <div
-            class="award-gallery award-gallery--featured"
+            class="award-gallery"
             aria-label="VPBank Technology Hackathon 2025 photo gallery"
           >
             <a
@@ -461,6 +473,18 @@ images:
                 loading="lazy"
               >
             </a>
+            <a
+              class="award-proof"
+              data-lightbox="vpbank-2025"
+              href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-trophy-closeup.jpg' | relative_url }}"
+              aria-label="View the Hackathon Star trophy close-up at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-trophy-closeup.jpg' | relative_url }}"
+                alt="Close-up of the Hackathon Star trophy from VPBank Technology Hackathon 2025"
+                loading="lazy"
+              >
+            </a>
           </div>
         </article>
       </section>
@@ -488,7 +512,7 @@ images:
             </a>
           </div>
           <div
-            class="award-gallery award-gallery--featured"
+            class="award-gallery"
             aria-label="FPT Hackathon 2025 photo gallery"
           >
             <a
@@ -527,6 +551,18 @@ images:
                 loading="lazy"
               >
             </a>
+            <a
+              class="award-proof"
+              data-lightbox="fpt-hackathon-2025"
+              href="{{ '/assets/img/awards/fpt-hackathon-2025-working-session.jpg' | relative_url }}"
+              aria-label="View Team One working at FPT Hackathon 2025 at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-hackathon-2025-working-session.jpg' | relative_url }}"
+                alt="Team One working on its solution during FPT Hackathon 2025"
+                loading="lazy"
+              >
+            </a>
           </div>
         </article>
       </section>
@@ -546,7 +582,7 @@ images:
             </p>
           </div>
           <div
-            class="award-gallery award-gallery--featured"
+            class="award-gallery"
             aria-label="FleziPT AI Champions photo gallery"
           >
             <a
@@ -558,18 +594,6 @@ images:
               <img
                 src="{{ '/assets/img/awards/flezipt-ai-champions-2025-prize.jpg' | relative_url }}"
                 alt="FleziPT AI Champion prize board for 20,000,000 VND"
-                loading="lazy"
-              >
-            </a>
-            <a
-              class="award-proof"
-              data-lightbox="flezipt-ai-champions-2025"
-              href="{{ '/assets/img/awards/flezipt-ai-champions-2025-award.jpg' | relative_url }}"
-              aria-label="View Khang holding the FleziPT AI Champion award at full size"
-            >
-              <img
-                src="{{ '/assets/img/awards/flezipt-ai-champions-2025-award.jpg' | relative_url }}"
-                alt="Khang holding the FleziPT AI Champion award"
                 loading="lazy"
               >
             </a>
