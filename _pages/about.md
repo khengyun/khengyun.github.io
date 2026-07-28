@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Sungkyunkwan University (SKKU)</p>
-    <p>Electrical and Electronics Engineering</p>
+    <p>Computer Vision · Edge AI</p>
     <p>South Korea</p>
 
 selected_papers: false # keep the about page focused on the short biography
@@ -36,6 +35,25 @@ latest_posts:
     font-size: 0.52em;
     font-weight: 400;
     white-space: nowrap;
+  }
+
+  .profile .more-info {
+    margin-top: 0.9rem;
+    color: var(--global-text-color-light);
+    font-family: inherit;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  .profile .more-info p {
+    display: block;
+    margin: 0;
+    color: inherit;
+  }
+
+  .profile .more-info p + p {
+    margin-top: 0.2rem;
   }
 
   .education-list {
