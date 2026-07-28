@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards
 description: Selected awards and competition achievements.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 ## [First Prize — Vietnam Student AI Olympiad 2025, Southern Regional Round](https://drive.google.com/file/d/1q1l6ecyxN2MNS8wxEC0Hg2RPOLKBhZ1_/view?usp=sharing)

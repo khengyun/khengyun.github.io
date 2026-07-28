@@ -27,21 +27,27 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a combined M.S.–Ph.D. student in Electrical and Electronics Engineering at
-[Sungkyunkwan University](https://www.skku.edu/) (SKKU). My research focuses on
-**intelligent surveillance systems**, **Edge AI**, and efficient perception for edge devices.
+I am a combined M.S.–Ph.D. student at [Sungkyunkwan University](https://www.skku.edu/) (SKKU),
+researching **intelligent surveillance systems** and **Edge AI**.
 
-Before joining SKKU, I worked across research and industry as an AI engineer, building systems in
-computer vision, multimodal learning, medical imaging, autonomous systems, recommender systems,
-and LLM-powered developer tools. I care about AI that is not only accurate, but also efficient,
-reproducible, and practical to deploy.
+My background spans computer vision, multimodal learning, autonomous systems, medical imaging,
+and LLM applications. I am interested in efficient, reproducible AI and open to
+[research collaborations](mailto:khaangnguyeen@gmail.com).
 
-My current interests include:
+## Education
 
-- multi-camera and 3D visual perception;
-- edge intelligence and resource-efficient deep learning;
-- multimodal and vision-language learning;
-- reliable AI engineering and agentic systems.
+### Combined M.S.–Ph.D. in Electrical and Electronics Engineering
 
-I am open to research collaborations and conversations around applied computer vision and
-production-grade AI. The best way to reach me is by [email](mailto:khaangnguyeen@gmail.com).
+**Sungkyunkwan University (SKKU), South Korea**<br>
+January 2026 — Present
+
+- Fully funded scholarship with full tuition waiver and monthly stipend.
+- Research focus: intelligent surveillance systems, Edge AI, and efficient perception for edge devices.
+
+### B.S. in Software Engineering
+
+**FPT University, Vietnam**<br>
+September 2021 — April 2025
+
+- Sub-major in Artificial Intelligence.
+- Cumulative GPA: 3.25/4.0.
