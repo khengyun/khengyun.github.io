@@ -3,6 +3,8 @@
 [![Website](https://img.shields.io/badge/website-khengyun.github.io-CB0DBB)](https://khengyun.github.io/)
 [![Deploy site](https://github.com/khengyun/khengyun.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/khengyun/khengyun.github.io/actions/workflows/deploy.yml)
 
+[![About page preview](readme_preview/about.png)](https://khengyun.github.io/)
+
 Personal academic and technical portfolio for **Khang Hoang Nguyen**, a combined M.S.–Ph.D.
 student at Sungkyunkwan University and an AI researcher and engineer.
 
