@@ -109,6 +109,35 @@ nav_order: 1
     line-height: 1.25;
   }
 
+  .award-group__header--with-photo {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 8rem;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .award-group__subtitle {
+    margin: 0.35rem 0 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .award-group__photo {
+    display: block;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.45rem;
+    aspect-ratio: 1;
+    background: #fff;
+  }
+
+  .award-group__photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .award-entry {
     display: grid;
     grid-template-columns: minmax(11rem, 0.75fr) minmax(19rem, 1.25fr);
@@ -223,6 +252,10 @@ nav_order: 1
     .awards-toc nav,
     .award-entry {
       grid-template-columns: 1fr;
+    }
+
+    .award-group__header--with-photo {
+      grid-template-columns: minmax(0, 1fr) 6rem;
     }
   }
 </style>
@@ -419,8 +452,22 @@ nav_order: 1
       <p class="award-period__date">September 2024</p>
 
       <section class="award-group" id="september-2024-miccai">
-        <header class="award-group__header">
-          <h2>MICCAI 2024</h2>
+        <header class="award-group__header award-group__header--with-photo">
+          <div>
+            <h2>MICCAI 2024</h2>
+            <p class="award-group__subtitle">Endoscopic Vision Challenge team</p>
+          </div>
+          <a
+            class="award-group__photo"
+            href="{{ '/assets/img/awards/endoscopic-vision-2024-team.jpg' | relative_url }}"
+            aria-label="View the Endoscopic Vision Challenge team photo at full size"
+          >
+            <img
+              src="{{ '/assets/img/awards/endoscopic-vision-2024-team.jpg' | relative_url }}"
+              alt="Endoscopic Vision Challenge team at MICCAI 2024"
+              loading="lazy"
+            >
+          </a>
         </header>
 
         <article class="award-entry">
