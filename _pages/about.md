@@ -13,7 +13,7 @@ profile:
     <p>Electrical and Electronics Engineering</p>
     <p>South Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # keep the about page focused on the short biography
 social: false # social icons are already displayed in the navbar
 
 announcements:

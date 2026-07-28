@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected open-source and industry projects in AI engineering.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [open-source, industry]
 horizontal: true
