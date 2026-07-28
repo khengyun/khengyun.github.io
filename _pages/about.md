@@ -36,18 +36,15 @@ and LLM applications. I am interested in efficient, reproducible AI and open to
 
 ## Education
 
-### Combined M.S.–Ph.D. in Electrical and Electronics Engineering
+##### Combined M.S.–Ph.D. · Electrical and Electronics Engineering
 
-**Sungkyunkwan University (SKKU), South Korea**<br>
-January 2026 — Present
+**Sungkyunkwan University (SKKU), South Korea** · January 2026 — Present
 
-- Fully funded scholarship with full tuition waiver and monthly stipend.
-- Research focus: intelligent surveillance systems, Edge AI, and efficient perception for edge devices.
+Fully funded scholarship. Research focus: intelligent surveillance systems, Edge AI, and efficient
+perception for edge devices.
 
-### B.S. in Software Engineering
+##### B.S. · Software Engineering
 
-**FPT University, Vietnam**<br>
-September 2021 — April 2025
+**FPT University, Vietnam** · September 2021 — April 2025
 
-- Sub-major in Artificial Intelligence.
-- Cumulative GPA: 3.25/4.0.
+Sub-major in Artificial Intelligence.
