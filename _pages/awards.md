@@ -178,27 +178,22 @@ nav_order: 1
     object-fit: contain;
   }
 
-  .award-proof--text {
-    min-height: 15rem;
-    padding: 2rem;
-    color: #1f2933;
-    text-align: center;
-    background:
-      linear-gradient(135deg, rgb(255 255 255 / 92%), rgb(255 255 255 / 97%)),
-      linear-gradient(135deg, #27ae60, #f2c94c);
+  .award-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    align-items: start;
   }
 
-  .award-proof--text strong {
-    display: block;
-    margin-bottom: 0.65rem;
-    color: #176b3a;
-    font-size: clamp(1.3rem, 3vw, 2rem);
-    letter-spacing: 0.05em;
+  .award-gallery .award-proof {
+    min-height: 0;
+    aspect-ratio: 1;
   }
 
-  .award-proof--text span {
-    max-width: 22rem;
-    line-height: 1.5;
+  .award-gallery .award-proof img {
+    height: 100%;
+    max-height: none;
+    object-fit: cover;
   }
 
   @media (max-width: 991px) {
@@ -336,17 +331,30 @@ nav_order: 1
               Recognized for a solution that optimized 40% of testing costs.
             </p>
           </div>
-          <a
-            class="award-proof"
-            href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
-            aria-label="View the VPBank Technology Hackathon 2025 award photo at full size"
-          >
-            <img
-              src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
-              alt="Hackathon Star trophy from the Senior Track at VPBank Technology Hackathon 2025"
-              loading="lazy"
+          <div class="award-gallery" aria-label="VPBank Technology Hackathon 2025 photo gallery">
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
+              aria-label="View the Hackathon Star trophy photo at full size"
             >
-          </a>
+              <img
+                src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025.jpg' | relative_url }}"
+                alt="Hackathon Star trophy from the Senior Track at VPBank Technology Hackathon 2025"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-team.jpg' | relative_url }}"
+              aria-label="View the Dream Come True team photo at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-team.jpg' | relative_url }}"
+                alt="Team Dream Come True at the VPBank Technology Hackathon 2025 final competition round"
+                loading="lazy"
+              >
+            </a>
+          </div>
         </article>
       </section>
     </section>
@@ -446,12 +454,17 @@ nav_order: 1
               Event post <span aria-hidden="true">↗</span>
             </a>
           </div>
-          <div class="award-proof award-proof--text" aria-label="TECHFEST Vietnam 2022 award summary">
-            <span>
-              <strong>TECHFEST VIETNAM 2022</strong>
-              First Prize for an eco-friendly product concept using recycled coffee grounds.
-            </span>
-          </div>
+          <a
+            class="award-proof"
+            href="{{ '/assets/img/awards/techfest-2022-first-prize.jpg' | relative_url }}"
+            aria-label="View the TECHFEST Vietnam 2022 First Prize image at full size"
+          >
+            <img
+              src="{{ '/assets/img/awards/techfest-2022-first-prize.jpg' | relative_url }}"
+              alt="First Prize award for the Green Creative Startup contest at TECHFEST Vietnam 2022"
+              loading="lazy"
+            >
+          </a>
         </article>
       </section>
     </section>
