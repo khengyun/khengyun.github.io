@@ -1,0 +1,10 @@
+---
+version: 1
+overrides:
+  _sass/_footer.scss:
+    owner: al_folio_core
+    gem_version: 1.0.11
+    upstream_path: _sass/_footer.scss
+    upstream_sha256: 4deed90ecd397f9c2e69468172020c6a0ab2c793fd7a3c957fbf44d47e7f537a
+    local_sha256: d6f2e05cf176fe1c029ac2db13b5ca6fb3533881bb08e71b7a781dd47c850811
+    acknowledged_at: "2026-07-28"

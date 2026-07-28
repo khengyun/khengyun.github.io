@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Site-specific footer styles
+ ******************************************************************************/
+
+footer.fixed-bottom {
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.75rem;
+
+  .container {
+    padding-top: 9px;
+    padding-bottom: 8px;
+    color: var(--global-footer-text-color);
+    text-align: center;
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+body.sticky-bottom-footer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  > .container[role="main"] {
+    flex: 1 0 auto;
+  }
+}
+
+footer.sticky-bottom {
+  flex: 0 0 auto;
+  margin-top: 1.5rem !important;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  .container {
+    text-align: center;
+  }
+}
