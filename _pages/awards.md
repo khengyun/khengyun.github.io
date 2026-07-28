@@ -275,6 +275,12 @@ nav_order: 1
         </div>
       </div>
       <div class="awards-toc__period">
+        <a class="awards-toc__date" href="#september-2025">September 2025</a>
+        <div class="awards-toc__groups">
+          <a class="awards-toc__group" href="#september-2025-fpt-education">FPT Education</a>
+        </div>
+      </div>
+      <div class="awards-toc__period">
         <a class="awards-toc__date" href="#september-2024">September 2024</a>
         <div class="awards-toc__groups">
           <a class="awards-toc__group" href="#september-2024-miccai">MICCAI 2024</a>
@@ -446,6 +452,73 @@ nav_order: 1
               <img
                 src="{{ '/assets/img/awards/vpbank-technology-hackathon-2025-team.jpg' | relative_url }}"
                 alt="Team Dream Come True at the VPBank Technology Hackathon 2025 final competition round"
+                loading="lazy"
+              >
+            </a>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <section class="award-period" id="september-2025">
+      <p class="award-period__date">September 2025</p>
+
+      <section class="award-group" id="september-2025-fpt-education">
+        <header class="award-group__header">
+          <h2>FPT Education</h2>
+        </header>
+
+        <article class="award-entry">
+          <div>
+            <p class="award-entry__result">Third Place</p>
+            <h3>FPT Hackathon 2025</h3>
+            <p class="award-entry__round">Board A · Chip AI Logistics on Edge</p>
+            <p class="award-entry__description">
+              Won Third Place in Board A with Team One, representing FPT University Can Tho.
+            </p>
+            <a
+              class="award-entry__source"
+              href="https://www.facebook.com/share/1DCMaZuF4p/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Event post <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div
+            class="award-gallery award-gallery--featured"
+            aria-label="FPT Hackathon 2025 photo gallery"
+          >
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-hackathon-2025-third-place.jpg' | relative_url }}"
+              aria-label="View the Team One Third Place photo at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-hackathon-2025-third-place.jpg' | relative_url }}"
+                alt="Team One receiving the Third Place award in Board A at FPT Hackathon 2025"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-hackathon-2025-team-one-recognition.jpg' | relative_url }}"
+              aria-label="View the Team One recognition image at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-hackathon-2025-team-one-recognition.jpg' | relative_url }}"
+                alt="Team One advancing to the FPT Hackathon 2025 National Final"
+                loading="lazy"
+              >
+            </a>
+            <a
+              class="award-proof"
+              href="{{ '/assets/img/awards/fpt-hackathon-2025-team-one.jpg' | relative_url }}"
+              aria-label="View Team One at the FPT Hackathon 2025 final at full size"
+            >
+              <img
+                src="{{ '/assets/img/awards/fpt-hackathon-2025-team-one.jpg' | relative_url }}"
+                alt="Team One at the FPT Hackathon 2025 National Final"
                 loading="lazy"
               >
             </a>
