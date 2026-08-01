@@ -27,6 +27,10 @@ latest_posts:
 ---
 
 <style>
+  .profile img {
+    filter: grayscale(100%);
+  }
+
   .post-header .post-title::after {
     display: inline-block;
     margin-left: 0.35rem;
